@@ -12,6 +12,8 @@ console.log(computerNumber);
 
 if (userNumber > computerNumber) {
     console.log(`Il tuo numero è ${userNumber}, quello del computer è ${computerNumber}. Complimenti utente, hai vinto!`);
-} else {
+} else if (userNumber < computerNumber) {
     console.log(`Il tuo numero è ${userNumber}, quello del computer è ${computerNumber}. Mi dispiace, hai perso`)
+} else {
+    console.log(`Il tuo numero è ${userNumber}, quello del computer è ${computerNumber}. Avete pareggiato, ricarica la pagina per provare a batterlo.`);
 }
